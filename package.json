@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-starter-template",
+  "version": "1.0.0",
+  "description": "a tailwind cli starter template that can be used to create tailwind project on the go",
+  "main": "index.js",
+  "scripts": {
+    "build":"tailwind -i ./input.css -o ./css/style.css",
+    "watch":"tailwind -i ./input.css -o ./css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxp-brownie/tailwind-starter-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxp-brownie/tailwind-starter-template/issues"
+  },
+  "homepage": "https://github.com/pxp-brownie/tailwind-starter-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
